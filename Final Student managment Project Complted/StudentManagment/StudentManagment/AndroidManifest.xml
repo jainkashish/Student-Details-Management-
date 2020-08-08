@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentmanagment"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        >
+        <activity
+            android:name="com.example.studentmanagment.FirstActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.AdminLoginActivity"
+            android:label="@string/title_activity_admin_login" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.AdminHomeStudentActivity"
+            android:label="@string/title_activity_admin_home" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.AdminHomePageActivity"
+            android:label="@string/title_activity_admin_home_page" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.AdminHomeFacultyActivity"
+            android:label="@string/title_activity_admin_home_activity_faculty" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.AddNewStudentActivity"
+            android:label="@string/title_activity_add_new_student" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.InsertPersonalDetailsActivity"
+            android:label="@string/title_activity_insert_personal_details" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.InsertAcadmicDetailsActivity"
+            android:label="@string/title_activity_insert_acadmic_details" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.UpdateStudentPageActivity"
+            android:label="@string/title_activity_update_student_page" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.UpdatePersonalDetailsActivity"
+            android:label="@string/title_activity_update_personal_details" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.UpdateAcademicDetailsActivity"
+            android:label="@string/title_activity_update_academic_details" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.InsertBackActivity"
+            android:label="@string/title_activity_insert_back" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.ViewAllBackActivity"
+            android:label="@string/title_activity_view_all_back" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.BackHomePageActivity"
+            android:label="@string/title_activity_back_home_page" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.DeleteBackActivity"
+            android:label="@string/title_activity_delete_back" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.ViewAllStudentActivity"
+            android:label="@string/title_activity_view_all_student" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.DeleteStudentActivity"
+            android:label="@string/title_activity_delete_student" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.SearchStudentActivity"
+            android:label="@string/title_activity_search_student" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.InsertFacultyActivity"
+            android:label="@string/title_activity_insert_faculty" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.ViewAllFacultyActivity"
+            android:label="@string/title_activity_view_all_faculty" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.DeleteFacultyActivity"
+            android:label="@string/title_activity_delete_faculty" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.UpdateFacultyActivity"
+            android:label="@string/title_activity_update_faculty" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.StudentHomePageActivity"
+            android:label="@string/title_activity_student_home_page" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.FacultyHomePageActivity"
+            android:label="@string/title_activity_faculty_home_page" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.ViewStudentPersonalDetailsActivity"
+            android:label="@string/title_activity_view_student_personal_details" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.ViewStudentAcademicDetailsActivity"
+            android:label="@string/title_activity_view_student_academic_details" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.AskQueryActivity"
+            android:label="@string/title_activity_ask_query" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.ViewFacultyDeatilsActivity"
+            android:label="@string/title_activity_view_faculty_deatils" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.ViewQueryActivity"
+            android:label="@string/title_activity_view_query" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.ReplyActivity"
+            android:label="@string/title_activity_reply" >
+        </activity>
+        <activity
+            android:name="com.example.studentmanagment.ViewRepliesActivity"
+            android:label="@string/title_activity_view_replies" >
+        </activity>
+    </application>
+
+</manifest>

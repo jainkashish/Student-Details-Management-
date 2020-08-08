@@ -1,0 +1,448 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"  android:background="#B39DDB"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+         <EditText
+            android:id="@+id/editText41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Enter collegeId" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editText41"
+            android:layout_marginTop="23dp"
+            android:text="Search" />
+        
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_below="@+id/button2">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Qualification" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Year" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Percentage" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Board/University" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_marginTop="20dp" >
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:hint="10th" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_marginTop="20dp" >
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:hint="12th" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_marginTop="20dp" >
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:hint="1st Sem" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout4" 
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:hint="2nd Sem" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout5"
+            android:layout_marginTop="20dp" >
+
+            <EditText
+                android:id="@+id/editText17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:hint="3rd Sem" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout6"
+            android:layout_marginTop="20dp" >
+
+            <EditText
+                android:id="@+id/editText21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:hint="4th Sem" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout7"
+            android:layout_marginTop="20dp" >
+
+            <EditText
+                android:id="@+id/editText25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:hint="5th Sem" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout8"
+            android:layout_marginTop="20dp" >
+
+            <EditText
+                android:id="@+id/editText29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:hint="6th Sem" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+
+            <EditText
+                android:id="@+id/editText32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout9"
+            android:layout_marginTop="20dp" >
+
+            <EditText
+                android:id="@+id/editText33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:hint="7th Sem" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                 />
+
+            <EditText
+                android:id="@+id/editText35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                />
+
+            <EditText
+                android:id="@+id/editText36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                />
+        </LinearLayout>
+         
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout10"
+            android:layout_marginTop="20dp" >
+
+            <EditText
+                android:id="@+id/editText37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:hint="8th Sem" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                 />
+
+            <EditText
+                android:id="@+id/editText39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                />
+
+            <EditText
+                android:id="@+id/editText40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                />
+        </LinearLayout>
+        
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/linearLayout11"
+            android:text="Update" />
+        
+    </RelativeLayout>
+
+</ScrollView>
